@@ -44,7 +44,7 @@ table {
 } 
 /*CSS Reset vége*/
 .profile-card {
-    width: 480px;
+    width: 600px;
     max-width: calc(100vw - 10px);
   }
   body {
@@ -52,12 +52,12 @@ table {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
+  }    
   .head, .links {
     text-align: center;
   }
   .head, .content {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
   }
   img {
@@ -80,12 +80,12 @@ table {
     margin-bottom: 10%;
   }/*margót ad az elemeknek hogy szellősebb legyen*/
   .content {
-    padding: 5% 10%;
+    padding: 10% 10%;
   }/*paddinget állítunk hogy csinibb legyen*/
   body {
-    background-image: url(assets/Pictures/6833.jpg) no-repeat center center fixed;
+    background: url(assets/Pictures/DWBA3002_03_09_benmd_3day837_rmmj.jpg) no-repeat center center fixed;
     background-size: cover;
-  } /*háttérkép hozzáadása*/
+  } /*háttérkép hozzáadása stupa*/
   .profile-card {
     background-color: hsla(0, 0%, 100%, .5);
     border-radius: 20px;
@@ -98,14 +98,12 @@ table {
   }
   .content {
     border-top: 2px solid hsla(0, 0%, 30%, .8);
-  }
+  }/*itt kell valamit machinálni hogy középre essen*/
   img:hover {
     transform: scale(1.6);
     transition: all 0.9s ease-in-out;
     filter: grayscale(10%);
   }
-  /*el kell távolítanod a segítő háttérszíneket KÉSZ*/
-  /*megformáznod a szövegetbeállítanod a kívánt színeket a maradék elemeken. KÉÉÉÉSZ*/
   h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
@@ -114,13 +112,9 @@ table {
   }
   h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     color: #696969;
     text-shadow: 1px 1px lightgrey;
-  }
-  h3 {
-    font-size: 16px;
-    text-shadow: 1px 1px grey;
   }
   span {
     font-family: Arial, Helvetica, sans-serif;
@@ -134,10 +128,14 @@ table {
     text-align: center;
   }
   .name-headline {
-    padding: 50px;
+    padding: 60px;
   }
   .social-icon {
     color: rgb(105, 105, 105);  
+  }
+  span {
+    font-size: 12px;
+    
   }
   
   
