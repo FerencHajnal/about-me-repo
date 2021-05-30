@@ -1,0 +1,232 @@
+/*Eric Meyer CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/*CSS Reset vége*/
+.profile-card {
+    width: 480px;
+    max-width: calc(100vw - 10px);
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .head, .links {
+    text-align: center;
+  }
+  .head, .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }/*profilkép formázása*/
+  .profile-image {
+    margin-top: -60px;
+  }/*profilkép margó adjustment*/
+  /* Contact links */
+  ul {
+    list-style-type: none;
+  }/*lista pontok eltűntetése*/
+  
+  li {
+    display: inline;
+  }/*sorba rendezi a link ikonokat*/
+  .head, .about {
+    margin-bottom: 10%;
+  }/*margót ad az elemeknek hogy szellősebb legyen*/
+  .content {
+    padding: 5% 10%;
+  }/*paddinget állítunk hogy csinibb legyen*/
+  body {
+    background-image: url(Pictures/DWBA3002_03_09_benmd_3day837_rmmj.jpg) no-repeat center center fixed;
+    background-size: cover;
+  } /*háttérkép hozzáadása*/
+  .profile-card {
+    background-color: hsla(0, 0%, 100%, .5);
+    border-radius: 20px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  }/*Profil kártya háttérszín és formázás beállítás, shade and else*/
+  img {
+    padding: 1px;
+    background-color: #666;
+    filter: grayscale(50%);
+  }
+  .content {
+    border-top: 2px solid hsla(0, 0%, 30%, .8);
+  }
+  img:hover {
+    transform: scale(1.6);
+    transition: all 0.9s ease-in-out;
+    filter: grayscale(10%);
+  }
+  /*el kell távolítanod a segítő háttérszíneket KÉSZ*/
+  /*megformáznod a szövegetbeállítanod a kívánt színeket a maradék elemeken. KÉÉÉÉSZ*/
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px grey;
+  }
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #696969;
+    text-shadow: 1px 1px lightgrey;
+  }
+  h3 {
+    font-size: 16px;
+    text-shadow: 1px 1px grey;
+  }
+  span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-shadow: 1px 1px grey;
+    text-align: center;
+  }
+  .name-headline {
+    padding: 50px;
+  }
+  .social-icon {
+    color: rgb(105, 105, 105);  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
