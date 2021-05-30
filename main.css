@@ -119,6 +119,7 @@ table {
   span {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 12px;
   }
   p {
     font-family: Arial, Helvetica, sans-serif;
@@ -132,10 +133,6 @@ table {
   }
   .social-icon {
     color: rgb(105, 105, 105);  
-  }
-  span {
-    font-size: 12px;
-    
   }
   
   
