@@ -83,7 +83,7 @@ table {
     padding: 5% 10%;
   }/*paddinget állítunk hogy csinibb legyen*/
   body {
-    background-image: url(Pictures/DWBA3002_03_09_benmd_3day837_rmmj.jpg) no-repeat center center fixed;
+    background-image: url(assets/Pictures/6833.jpg) no-repeat center center fixed;
     background-size: cover;
   } /*háttérkép hozzáadása*/
   .profile-card {
