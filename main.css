@@ -44,96 +44,103 @@ table {
 } 
 /*CSS Reset vége*/
 .profile-card {
-    width: 600px;
-    max-width: calc(100vw - 10px);
-  }
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }    
-  .head, .links {
-    text-align: center;
-  }
-  .head, .content {
-    width: 80%;
-    margin: 0 auto;
-  }
-  img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-  }/*profilkép formázása*/
-  .profile-image {
-    margin-top: -60px;
-  }/*profilkép margó adjustment*/
-  /* Contact links */
-  ul {
-    list-style-type: none;
-  }/*lista pontok eltűntetése*/
-  
-  li {
-    display: inline;
-  }/*sorba rendezi a link ikonokat*/
-  .head, .about {
-    margin-bottom: 10%;
-  }/*margót ad az elemeknek hogy szellősebb legyen*/
-  .content {
-    padding: 10% 10%;
-  }/*paddinget állítunk hogy csinibb legyen*/
-  body {
-    background: url(assets/Pictures/DWBA3002_03_09_benmd_3day837_rmmj.jpg) no-repeat center center fixed;
-    background-size: cover;
-  } /*háttérkép hozzáadása stupa*/
-  .profile-card {
-    background-color: hsla(0, 0%, 100%, .5);
-    border-radius: 20px;
-    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
-  }/*Profil kártya háttérszín és formázás beállítás, shade and else*/
-  img {
-    padding: 1px;
-    background-color: #666;
-    filter: grayscale(50%);
-  }
-  .content {
-    border-top: 2px solid hsla(0, 0%, 30%, .8);
-  }/*itt kell valamit machinálni hogy középre essen*/
-  img:hover {
-    transform: scale(1.6);
-    transition: all 0.9s ease-in-out;
-    filter: grayscale(10%);
-  }
-  h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    text-transform: uppercase;
-    text-shadow: 1px 1px grey;
-  }
-  h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: #696969;
-    text-shadow: 1px 1px lightgrey;
-  }
-  span {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-  }
-  p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    text-shadow: 1px 1px grey;
-    text-align: center;
-  }
-  .name-headline {
-    padding: 60px;
-  }
-  .social-icon {
-    color: rgb(105, 105, 105);  
-  }
+  width: 600px;
+  max-width: calc(100vw - 10px);
+  margin-top: 25px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}    
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 80%;
+  margin: 0 auto;
+}
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 20%;
+}/*profilkép formázása*/
+.profile-image {
+  margin-top: -60px;
+}/*profilkép margó adjustment*/
+/* Contact links */
+ul {
+  list-style-type: none;
+}/*lista pontok eltűntetése*/
+li {
+  display: inline;
+}/*sorba rendezi a link ikonokat*/
+.head, .about {
+  margin-bottom: 10%;
+}/*margót ad az elemeknek hogy szellősebb legyen*/
+.content {
+  padding: 10% 10%;
+}/*paddinget állítunk hogy csinibb legyen*/
+body {
+  background: url(assets/Pictures/DWBA3002_03_09_benmd_3day837_rmmj.jpg) no-repeat center center fixed;
+  background-size: cover;
+} /*háttérkép hozzáadása stupa*/
+.profile-card {
+  background-color: hsla(56, 100%, 60%, 0.5);
+  border-radius: 20px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+ }/*Profil kártya háttérszín és formázás beállítás, shade and else*/
+img {
+  padding: 1px;
+  background-color: #666;
+  filter: hsla(46, 100%, 50%, 0.5);
+}
+.content {
+  border-top: 2px solid hsla(0, 0%, 30%, .8);
+}/*itt kell valamit machinálni hogy középre essen*/
+img:hover {
+  transform: scale(1.6);
+  transition: all 0.9s ease-in-out;
+  filter: hsla(46, 100%, 50%, 0.5);
+}
+h1 {
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px rgb(197, 196, 106);
+}
+h2 {
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: hsla(360, 100%, 35%, 1);
+  text-shadow: 1px 1px rgb(150, 112, 112);
+  margin-bottom: 15px;
+}
+span {
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+p {
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 1px 1px grey;
+  text-align: center;
+}
+.name-headline {
+  padding: 60px;
+}
+.social-icon {
+  color: hsla(0, 100%, 50%, 0.6);  
+}
+.social-icon:hover {
+  color: hsla(0, 100%, 50%, 1);;
+  transition: all 0.6s ease-in-out;
+}
   
   
   
